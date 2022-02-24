@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soldes</title>
+</head>
+<body>
+    <div class="container">  
+        <div class="form">
+            <div class="texte">Quel est le prix de l'article ?</div>
+            <input type="number" name="prix" id="prix" class="prix"></input>
+            <div class="texte">Quel est le pourcentage ?</div>
+            <input type="number" name="pourcentage" class="pourcentage" id="pourcentage"></input>
+            
+            <button type="button" class="btn" onclick="getValueInput()"> 
+                Résultat
+            </button> 
+            <div class="reducRendu">
+                <p id="resultat"></p>
+                <p id="reduction"></p>
+            </div>
+        </div>   
+    </div>
+</body>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+</html>
