@@ -1,4 +1,4 @@
-# calculatricesolde
+# Calculatrice de soldes
 
 Projet simple pour calculer la promotion d'une réduction en Vanilla JS
 
